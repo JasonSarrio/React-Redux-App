@@ -23,6 +23,7 @@ export const playersReducer = (state = initialState, action) => {
 
         default:
             return{
+                
                 ...state
             }
     }
